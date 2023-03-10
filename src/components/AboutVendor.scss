@@ -1,0 +1,66 @@
+@import '../scss/variables';
+
+.about-vendor {
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__right {
+    background-color: $white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 16px;
+    width: 100%;
+  }
+
+  &__img-container {
+    padding: 2px;
+    width: 110px;
+    background-color: $white;
+    border-radius: 50% 0 0 50%;
+  }
+
+  &__img {
+    display: block;
+    margin-right: 16px;
+  }
+
+  &__info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__name {
+    font-size: 16px;
+    color: $black;
+    margin: 10px 0;
+  }
+
+  &__description {
+    font-size: 16px;
+    color: $grey-light2;
+    margin: 5px 0 33px;
+  }
+
+  &__contact {
+    margin: 16px;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: $blue;
+    background-color: $white;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+}

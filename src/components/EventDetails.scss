@@ -1,0 +1,128 @@
+@import '../scss/variables';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+
+.event-details-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background: $white;
+  margin-bottom: 50px;
+
+  .event-details-image {
+    width: 49%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .event-details-content {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .event-details-title {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .event-details-date {
+      font-size: 16px;
+      color: $grey-neutral;
+      margin-bottom: 12px;
+
+      .fa {
+        margin-right: 10px;
+      }
+    }
+
+    .event-details-virtual {
+      font-size: 16px;
+      color: $grey-neutral;
+      margin-bottom: 24px;
+
+      .fa {
+        margin-right: 10px;
+      }
+    }
+
+    .event-details-description {
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: $grey-neutral;
+    }
+
+    .event-details-bottom {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+
+      .event-details-separator {
+        border-top: 1px solid $grey-light;
+        margin: 20px 0;
+      }
+
+      .event-details-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .event-details-bottom-left {
+        display: flex;
+      }
+
+      .event-details-price-range {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+
+        .fa {
+          margin-right: 10px;
+        }
+      }
+
+      .button-ticket {
+        display: inline-block;
+        padding: 12px 14px;
+        margin-right: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        color: $white;
+        background-color: $blue;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: darken($blue, 20%);
+        }
+      }
+
+      .event-details-actions {
+        display: flex;
+        align-items: center;
+
+        .event-details-action {
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          margin-left: 20px;
+          text-decoration: none;
+          color: $black;
+
+          &:hover {
+            color: lighten($black, 20%);
+          }
+
+          .fa {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

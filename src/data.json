@@ -1,0 +1,114 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "image": "event1.jpeg",
+      "type": "Concert",
+      "title": "San Francisco Music Hall of Fame Gallery",
+      "date": "2023-07-15",
+      "startTime": "6:00pm",
+      "endTime": "10:30pm",
+      "virtual": true,
+      "description": "Here will be displayed the description of this event. Olutpat quis augue varius viverra mauris urna, imperdiet nunc. Turpis elementum et commodo scelerisque facilisi. Quis ullamcorper vulputate amet, dapibus pellentesque facilisis faucibus. Placerat etiam dolor felis blandit sed neque enim. At suspendisse vel at tincidunt eget accumsan sit semper sed. At in gravida faucibus ultricies. Massa cras ligula integer lacinia amet, pellentesque.",
+      "priceRange": "$50-$100",
+      "importance": 1
+    },
+    {
+      "id": 2,
+      "image": "event2.jpeg",
+      "type": "Theater",
+      "title": "The Night Market",
+      "date": "2023-08-21",
+      "startTime": "6:00pm",
+      "endTime": "10:00pm",
+      "virtual": true,
+      "description": "Here will be displayed the description of this event. Olutpat quis augue varius viverra mauris urna, imperdiet nunc. Turpis elementum et commodo scelerisque facilisi. Quis ullamcorper vulputate amet, dapibus pellentesque facilisis faucibus. Placerat etiam dolor felis blandit sed neque enim. At suspendisse vel at tincidunt eget accumsan sit semper sed. At in gravida faucibus ultricies. Massa cras ligula integer lacinia amet, pellentesque.",
+      "priceRange": "$50-$100",
+      "importance": 1
+    },
+    {
+      "id": 3,
+      "image": "event3.jpeg",
+      "type": "Vip Experiences",
+      "title": "Doga - Bay Area",
+      "date": "2023-09-25",
+      "startTime": "7:00pm",
+      "endTime": "11:00pm",
+      "virtual": false,
+      "description": "Here will be displayed the description of this event. Olutpat quis augue varius viverra mauris urna, imperdiet nunc. Turpis elementum et commodo scelerisque facilisi. Quis ullamcorper vulputate amet, dapibus pellentesque facilisis faucibus. Placerat etiam dolor felis blandit sed neque enim. At suspendisse vel at tincidunt eget accumsan sit semper sed. At in gravida faucibus ultricies. Massa cras ligula integer lacinia amet, pellentesque.",
+      "priceRange": "$150-$200",
+      "importance": 1
+    },
+    {
+      "id": 4,
+      "image": "event4.jpeg",
+      "type": "Workshops and Classes",
+      "title": "In-Shelter Volunteer Orientation at FDR",
+      "date": "2023-11-05",
+      "startTime": "9:00am",
+      "endTime": "7:00pm",
+      "virtual": false,
+      "description": "Here will be displayed the description of this event. Olutpat quis augue varius viverra mauris urna, imperdiet nunc. Turpis elementum et commodo scelerisque facilisi. Quis ullamcorper vulputate amet, dapibus pellentesque facilisis faucibus. Placerat etiam dolor felis blandit sed neque enim. At suspendisse vel at tincidunt eget accumsan sit semper sed. At in gravida faucibus ultricies. Massa cras ligula integer lacinia amet, pellentesque.",
+      "priceRange": "$30-$200",
+      "importance": 1
+    },
+    {
+      "id": 5,
+      "image": "event5.jpeg",
+      "type": "Concert",
+      "title": "Fresh Spring Rolls with Peanut Sauce",
+      "date": "2024-10-01",
+      "startTime": "8:00pm",
+      "endTime": "11:00pm",
+      "virtual": true,
+      "description": "Here will be displayed the description of this event. Olutpat quis augue varius viverra mauris urna, imperdiet nunc. Turpis elementum et commodo scelerisque facilisi. Quis ullamcorper vulputate amet, dapibus pellentesque facilisis faucibus. Placerat etiam dolor felis blandit sed neque enim. At suspendisse vel at tincidunt eget accumsan sit semper sed. At in gravida faucibus ultricies. Massa cras ligula integer lacinia amet, pellentesque.",
+      "priceRange": "$50-$100",
+      "importance": 8
+    },
+    {
+      "id": 6,
+      "image": "event6.jpeg",
+      "type": "Music",
+      "title": "Guardians of the Scoring Stage: Orchestrating Action Movies",
+      "date": "2024-06-15",
+      "startTime": "8:00pm",
+      "endTime": "10:30pm",
+      "virtual": true,
+      "description": "Here will be displayed the description of this event. Olutpat quis augue varius viverra mauris urna, imperdiet nunc. Turpis elementum et commodo scelerisque facilisi. Quis ullamcorper vulputate amet, dapibus pellentesque facilisis faucibus. Placerat etiam dolor felis blandit sed neque enim. At suspendisse vel at tincidunt eget accumsan sit semper sed. At in gravida faucibus ultricies. Massa cras ligula integer lacinia amet, pellentesque.",
+      "priceRange": "$50-$100",
+      "importance": 7
+    },
+    {
+      "id": 7,
+      "image": "event7.jpeg",
+      "type": "Vip Experiences",
+      "title": "Music Marketing Summit",
+      "date": "2024-07-22",
+      "startTime": "2:00pm",
+      "endTime": "10:00pm",
+      "virtual": true,
+      "description": "Here will be displayed the description of this event. Olutpat quis augue varius viverra mauris urna, imperdiet nunc. Turpis elementum et commodo scelerisque facilisi. Quis ullamcorper vulputate amet, dapibus pellentesque facilisis faucibus. Placerat etiam dolor felis blandit sed neque enim. At suspendisse vel at tincidunt eget accumsan sit semper sed. At in gravida faucibus ultricies. Massa cras ligula integer lacinia amet, pellentesque.",
+      "priceRange": "$150-$200",
+      "importance": 6
+    },
+    {
+      "id": 8,
+      "image": "event8.jpeg",
+      "type": "Workshops and Classes",
+      "title": "Unplugged & Live: Virtual Music Festival",
+      "date": "2024-08-05",
+      "startTime": "10:00am",
+      "endTime": "6:00pm",
+      "virtual": true,
+      "description": "Here will be displayed the description of this event. Olutpat quis augue varius viverra mauris urna, imperdiet nunc. Turpis elementum et commodo scelerisque facilisi. Quis ullamcorper vulputate amet, dapibus pellentesque facilisis faucibus. Placerat etiam dolor felis blandit sed neque enim. At suspendisse vel at tincidunt eget accumsan sit semper sed. At in gravida faucibus ultricies. Massa cras ligula integer lacinia amet, pellentesque.",
+      "priceRange": "$30-$200",
+      "importance": 5
+    }
+  ],
+  "vendor": {
+    "image": "vendor1.png",
+    "name": "John Smith",
+    "description": "Description will be placed here. Proin eget enim in lacus. Quis morbi odio in etiam. Maecenas at ut viverra etiam ipsum diam eget mattis ipsum.",
+    "contactUrl": "#"
+  }
+}

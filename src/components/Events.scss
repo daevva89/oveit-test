@@ -1,0 +1,133 @@
+@import '../scss/variables';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+
+.events-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  .event-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 0 12px;
+    background: $white;
+    text-decoration: none;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    img {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+
+    .event-details {
+      display: flex;
+      flex-direction: column;
+      padding: 0 16px;
+      width: 100%;
+
+      .event-type {
+        color: $blue;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+      }
+
+      .event-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: $black;
+        min-height: 42px;
+      }
+
+      .event-date {
+        color: $grey-neutral;
+        font-size: 14px;
+        margin-bottom: 8px;
+
+        .fa {
+          margin-right: 4px;
+        }
+      }
+
+      .event-virtual {
+        color: $grey-neutral;
+        font-size: 14px;
+        margin-bottom: 12px;
+
+        .fa {
+          margin-right: 4px;
+        }
+      }
+
+      .event-separator {
+        border-top: 1px solid $grey-light;
+        margin: 0 -16px;
+      }
+
+      .event-actions {
+        display: flex;
+        margin: 14px 0;
+        font-size: 14px;
+      }
+
+      .event-action {
+        margin-right: 50px;
+        color: $black;
+        text-decoration: none;
+
+        &:hover {
+          color: lighten($black, 20%);
+        }
+
+        .fa {
+          margin-right: 4px;
+        }
+      }
+
+      .event-bottom {
+        font-size: 16px;
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $black;
+
+        .event-price-range {
+
+        }
+
+        .fa {
+          margin-right: 8px;
+        }
+
+        .button-ticket {
+          display: inline-block;
+          padding: 7px 10px;
+          font-size: 14px;
+          font-weight: 600;
+          text-decoration: none;
+          color: $white;
+          background-color: $blue;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: darken($blue, 20%);
+          }
+        }
+      }
+    }
+  }
+}
